@@ -33,12 +33,11 @@ def list_search(word,**kwargs):
         count = session.query(InventoryView).filter(InventoryView.is_delete == 0).count()
     return data,count
 
-def get_user(dgdh=None, name=None):
+def get_user(user_id):
     with ConnectionPool() as session:
-        data = session.query(User.dgdh, User.username, User.password, ActionView.dgdh).filter(
-            and_(or_(User.username == name, User.dgdh == dgdh))
-        ).all()
-    return data[0] if data else None
+        data = session.query(User).filter_by(dgdh=user_id
+        ).first()
+    return data if data else None
 
 def insert_inventory(**kwargs):
     with ConnectionPool() as session:

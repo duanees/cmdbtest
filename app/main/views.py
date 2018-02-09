@@ -104,11 +104,6 @@ def update():
     form = forms.UpdateForm(inventory)
     return redirect(url_for('main.inventory'))
 
-@main.route('/search/')
-def search():
-    word = request.args.get('q')
-    data_list, count = util.list_search(word, **kwargs)
-    return redirect('main.inventory',data_list=data_list,count=count)
 
 
 @login_manager.user_loader
@@ -118,7 +113,7 @@ def load_user(user_id):
 @main.before_request
 def beforelogin():
     user_id = session.get('user_id')
-    user = User.query.filter(User.dgdh == user_id).first()
+    user = util.get_user(user_id)
     g.user = user
 
 @main.context_processor
