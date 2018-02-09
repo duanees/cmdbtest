@@ -1,0 +1,13 @@
+.logo{
+    height:50px;
+}
+
+.main{
+    background: #ffffff;
+    width: 1500px;
+    overflow:hidden;
+    margin:0 auto;
+}
+.page-title{
+    text-align: center;
+}

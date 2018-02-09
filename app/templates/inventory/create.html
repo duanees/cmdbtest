@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block main %}
+{#    <div class="col-lg-8">#}
+{{ wtf.quick_form(form ,form_type="horizontal",horizontal_columns=('lg',5,4)) }}
+{#    </div>#}
+{% endblock %}
