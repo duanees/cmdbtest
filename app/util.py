@@ -16,21 +16,21 @@ class ConnectionPool():
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.session.close()
 
-
-def list_data(**kwargs):
-    page = kwargs.get('page', 1)
-    row_count = kwargs.get('row_count', 15)
-    with ConnectionPool() as session:
-        data = session.query(InventoryView).group_by(InventoryView.serial_no).offset(page).limit(row_count).all()
-        count = session.query(InventoryView).filter(InventoryView.is_delete == 0).count()
-    return data, count
+#
+# def list_data(**kwargs):
+#     page = kwargs.get('page', 1)
+#     row_count = kwargs.get('row_count', 15)
+#     with ConnectionPool() as session:
+#         data = session.query(InventoryView).filter(InventoryView.is_delete == 0).group_by(InventoryView.serial_no).offset(page).limit(row_count).all()
+#         count = session.query(InventoryView).filter(InventoryView.is_delete == 0).group_by(InventoryView.serial_no).count()
+#     return data, count
 
 def list_search(word,**kwargs):
     page = kwargs.get('page',1)
     row_count = kwargs.get('row_count',15)
     with ConnectionPool() as session:
-        data = session.query(InventoryView).group_by(InventoryView.serial_no).filter(or_(    InventoryView.type_name.contains(word),InventoryView.idc_name.contains(word),InventoryView.cabinet.contains(word),InventoryView.model.contains(word),InventoryView.department.contains(word),InventoryView.interfac_person.contains(word))).offset(page).limit(row_count).all()
-        count = session.query(InventoryView).filter(InventoryView.is_delete == 0).count()
+        data = session.query(InventoryView).group_by(InventoryView.serial_no).filter(or_(InventoryView.type_name.contains(word),InventoryView.idc_name.contains(word),InventoryView.cabinet.contains(word),InventoryView.model.contains(word),InventoryView.department.contains(word),InventoryView.interfac_person.contains(word))).offset(page).limit(row_count).all()
+        count = session.query(InventoryView).filter(InventoryView.is_delete == 0).group_by(InventoryView.serial_no).count()
     return data,count
 
 def get_user(user_id):

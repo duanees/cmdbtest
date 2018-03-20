@@ -34,12 +34,7 @@ def inventory():
         'row_count': ROW_COUNT
     }
     datas = []
-    if word:
-        data_list,count = util.list_search(word,**kwargs)
-    else:
-        data_list,count = util.list_data(**kwargs)
-    for data in data_list:
-        datas.append(data)
+    datas,count = util.list_search(word,**kwargs)
     total = int(math.ceil(count/(ROW_COUNT * 1.0)))
     dic_list = function.get_page(total,page)
     page_dict = {'page':page,'total':total,'dic_list':dic_list}
