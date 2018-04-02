@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a50f8174-9c5a-4873-add1-ee66d14bd5fb" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cmdbtest.iml" afterPath="$PROJECT_DIR$/.idea/cmdbtest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/views.py" afterPath="$PROJECT_DIR$/app/main/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/util.py" afterPath="$PROJECT_DIR$/app/util.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="190">
+              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding>
                 <element signature="e#14#82#0" expanded="true" />
               </folding>
@@ -41,8 +38,8 @@
       <file leaf-file-name="inventory.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/inventory.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="138" column="14" lean-forward="true" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+            <state relative-caret-position="2622">
+              <caret line="138" column="14" lean-forward="false" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -51,18 +48,8 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="722">
               <caret line="41" column="99" lean-forward="false" selection-start-line="41" selection-start-column="99" selection-end-line="41" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filters.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main/filters.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -111,18 +98,28 @@
       <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="437">
               <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default_comparator.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default_comparator.py" pinned="false" current-in-tab="false">
         <entry file="file://E:/python/env/Lib/site-packages/sqlalchemy/sql/default_comparator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="46" column="68" lean-forward="true" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+            <state relative-caret-position="532">
+              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -222,6 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,74 +228,10 @@
               <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="inventory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cmdbtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmdbtest" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,6 +242,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\cmdbtest" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\pystation\2.7env\cmdbtest\app" />
     </key>
@@ -465,16 +403,22 @@
       <option name="project" value="LOCAL" />
       <updated>1518146330669</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20180320z">
+      <created>1521534006161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1521534006162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1040" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2961165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30097088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22050716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22050716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -503,27 +447,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2018020902HYJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018020902HYJ" />
+    <MESSAGE value="20180320z" />
+    <option name="LAST_COMMIT_MESSAGE" value="20180320z" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,9 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#82#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,9 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,9 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding>
-            <element signature="e#14#82#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +720,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="722">
           <caret line="41" column="99" lean-forward="false" selection-start-line="41" selection-start-column="99" selection-end-line="41" selection-end-column="99" />
           <folding />
         </state>
@@ -829,16 +744,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/inventory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="138" column="14" lean-forward="true" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+        <state relative-caret-position="2622">
+          <caret line="138" column="14" lean-forward="false" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="190">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
             <element signature="e#14#82#0" expanded="true" />
           </folding>
@@ -863,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="437">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
@@ -871,8 +786,16 @@
     </entry>
     <entry file="file://E:/python/env/Lib/site-packages/sqlalchemy/sql/default_comparator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="46" column="68" lean-forward="true" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+        <state relative-caret-position="532">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
