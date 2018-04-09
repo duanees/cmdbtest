@@ -1,7 +1,9 @@
-from sqlalchemy import create_engine, func
-from sqlalchemy import alias, and_, func,outerjoin, or_
-from sqlalchemy.orm import sessionmaker, aliased
+from sqlalchemy import and_, or_
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+
 from app.models import *
+
 engine=create_engine("mysql+pymysql://11q:jczc@666@172.25.135.121:3306/wasu?charset=utf8", encoding='utf8')
 
 class ConnectionPool():
